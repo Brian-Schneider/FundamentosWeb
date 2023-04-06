@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EF5738;
+    font-family: "Permanent Marker", cursive;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+h1,
+h2 {
+    -webkit-text-stroke: 0.7px #181617;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.1rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+
+
+.texts {
+    color: #181617;
+    display: flex;
+    text-align: justify;
+    gap: 2rem;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.navbar {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0 0 1rem 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    color: #FADB0F;
+    font-size: 2.5rem;
+    transition: 0.3s;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FBF392;
+    width: 75%;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    gap:2rem;
+}
+
+.video {
+    width: 75%;
+    aspect-ratio: 16/9;
+    margin: 0 auto;
+    display: block;
+}
+
+#img_perfil {
+    width: max(250px, 25%);
+    object-fit: contain;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+}
+.banner-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 1rem auto;
+    gap:2rem;
+}
+
+.banner-social a img {
+    height: 3rem;
+    width: 3rem;
+}
+.banner-social a img:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 4px 8px;
+  border-radius: 10px;
+  border: none;
+  background-color: #534e174d;
+  color: var(--black);
+}
+
+button:hover {
+    background-color: #FADB0F;
+    cursor: pointer;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    padding: 1rem 0 0 0;
+  }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-track {
+    background: #FBF392;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #FADB0F;
+    border-radius: 100px;
+    border: 2px solid #FADB0F;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ecf4ff;
+  }
