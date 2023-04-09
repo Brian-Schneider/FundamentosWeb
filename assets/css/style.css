@@ -122,9 +122,30 @@ button:hover {
     cursor: pointer;
   }
 
+.banner-contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FBF392;
+    width: 75%;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    gap:2rem;
+}
+
   .right {
     display: flex;
     flex-direction: column;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left form {
+
+    width: 30vw;
   }
 
   .right iframe {
